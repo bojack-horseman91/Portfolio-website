@@ -8,8 +8,8 @@ import GitHubIcon from '@mui/icons-material/GitHub'; // Import GitHub icon
 
 interface ResearchProps {
   Research_name: string;
-  paper_link: string;
-  code_link: string;
+  paper_link?: string;
+  code_link?: string;
   videoLink: string;
   subtitle: string
 }

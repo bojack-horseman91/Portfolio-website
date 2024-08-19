@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 type EducationProps = {
   mainImageUrl: string;
   institutionName: string;

@@ -4,7 +4,7 @@ import { Typography } from '@mui/material';
 import Link from '@mui/material/Link';
 interface MusicBoxProps {
   Music: string;
-  subtitle: string;
+  subtitle?: string;
   videoLink: string;
 }
 
