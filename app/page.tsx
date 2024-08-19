@@ -38,6 +38,7 @@ export default function Home() {
       </Head>
 
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
+      <h1 style={{opacity:0}}>Saleh Sakib Ahmed</h1>
       <MainContent activeTab={activeTab} />
     </div>
   );
