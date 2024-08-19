@@ -15,11 +15,11 @@ export default function Home() {
   return (
     <div className='lg:px-30 md:px-24 sm:px-1 bg-slate-50' >
       <Head>
-        <title>Sakib&apos;s web</title>
+        <title>Saleh Sakib Ahmed - Official Website</title>
         <meta name="description" content="The sage of Saleh Sakib Ahmed. In his quest to find a cure." />
         <link rel="icon" href="/fab.ico" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-
+        
       </Head>
 
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
