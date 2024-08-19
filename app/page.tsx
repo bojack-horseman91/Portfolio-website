@@ -19,7 +19,22 @@ export default function Home() {
         <meta name="description" content="The sage of Saleh Sakib Ahmed. In his quest to find a cure." />
         <link rel="icon" href="/fab.ico" />
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-        
+        <script type="application/ld+json">
+{`
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Saleh Sakib Ahmed",
+  "description": "Researcher focused on finding a cure.",
+  "url": "https://saleh-sakib-ahmed.vercel.app/",
+  "sameAs": [
+    "https://www.linkedin.com/in/saleh-sakib-ahmed-956b8718a/?originalSubdomain=bd",
+    
+  ]
+}
+`}
+</script>
+
       </Head>
 
       <Navbar activeTab={activeTab} setActiveTab={setActiveTab} />
