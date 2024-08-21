@@ -21,7 +21,7 @@ const Art: React.FC = () => {
   return (
     <div>
         <Box sx={{ display: 'flex', p: 2,
-    backgroundImage: `url('https://i.ibb.co/R0HXNcC/96fe5414917f2c68e2fd42982c2dfcf2.jpg')`, // Replace with your background image URL
+    backgroundImage: `url('background_images/ArtBG.jpg')`, // Replace with your background image URL
     backgroundSize: 'cover',
     backgroundBlendMode:'hard-light',
   }}>

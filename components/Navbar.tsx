@@ -22,7 +22,7 @@ const Navbar: React.FC<NavBarProps> = ({ activeTab, setActiveTab }) => {
         }}
       >
         <Toolbar>
-          <Typography fontFamily={'monospace'} variant="h5" component="div" sx={{ flexGrow: 1 }}>
+          <Typography className=' text-black' fontFamily={'monospace'} variant="h5" component="div" sx={{ flexGrow: 1 }}>
             Saleh Sakib Ahmed
           </Typography>
         </Toolbar>

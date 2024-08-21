@@ -7,7 +7,8 @@ import Research from './Research';
 const ResearchWork = () => {
   return <div>
     <Box sx={{ display: 'flex', p: 2,
-    backgroundImage: `url('https://i.ibb.co/vHqPVmy/DNA-starting-image.jpg')`, // Replace with your background image URL
+    backgroundImage: 'url(/background_images/DNA.jpg)', // Replace with your background image URL
+
 
     backgroundSize: 'full',
 
@@ -16,7 +17,7 @@ const ResearchWork = () => {
    
         <Box sx={{ flexGrow: 1, p: 3 }}>
           
-            <Typography className='text-violet-950' fontFamily={'sans-serif'} variant="h2" component="div" sx={{ flexGrow: 1 }}>
+            <Typography className='text-violet-950 ' fontFamily={'sans-serif'} variant="h2" component="div" sx={{ flexGrow: 1 }}>
               My Research and Projects
             </Typography>
             <Typography fontWeight={300} className='text-violet-950' fontFamily={'monospace'} variant="h4" component="div" sx={{ flexGrow: 1 }}>

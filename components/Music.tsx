@@ -7,7 +7,7 @@ const Music: React.FC = () => {
   return (
     <div>
         <Box sx={{ display: 'flex', p: 2,
-    backgroundImage: `url('https://i.ibb.co/PNZBvN9/wallpapersden-com-listing-music-alone-anime-girl-3840x2160.jpg')`, // Replace with your background image URL
+    backgroundImage: `url('background_images/musicbg.jpg')`, // Replace with your background image URL
     backgroundSize: 'cover',
   }}>
    

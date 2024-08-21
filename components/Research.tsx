@@ -17,15 +17,15 @@ interface ResearchProps {
 const Research: React.FC<ResearchProps> = ({ videoLink, Research_name,code_link,paper_link, subtitle}) => {
   return (
     <div className='shadow-xl p-4'>
-      <Typography className='align-middle' fontWeight={300} fontFamily={'monospace'} variant="h3" component="div" sx={{ flexGrow: 1 }}>
+      <Typography className='align-middle text-black' fontWeight={300} fontFamily={'monospace'} variant="h3" component="div" sx={{ flexGrow: 1 }}>
         {Research_name}
       </Typography>
-      {subtitle?<Typography className='align-middle' fontFamily={'san-serif'} variant="h6" component="div" sx={{ flexGrow: 1 }}>
+      {subtitle?<Typography className='align-middle text-black' fontFamily={'san-serif'} variant="h6" component="div" sx={{ flexGrow: 1 }}>
         {subtitle}
       </Typography>:<></>}
       <Videos videoLink={videoLink} />
   
-<Typography className='p-1 hover:text-cyan-600' fontFamily={'monospace'} variant="h5" component="div" sx={{ flexGrow: 1 }}>
+<Typography className='p-1 hover:text-cyan-600 text-black' fontFamily={'monospace'} variant="h5" component="div" sx={{ flexGrow: 1 }}>
   {code_link ? (
     
     <Link href={code_link} underline="none" color="inherit">
@@ -37,7 +37,7 @@ const Research: React.FC<ResearchProps> = ({ videoLink, Research_name,code_link,
   )}
 </Typography>
 
-<Typography className='p-1 hover:text-cyan-600' fontFamily={'monospace'} variant="h5" component="div" sx={{ flexGrow: 1 }}>
+<Typography className='p-1 hover:text-cyan-600 text-black' fontFamily={'monospace'} variant="h5" component="div" sx={{ flexGrow: 1 }}>
     {paper_link ? (
       <Link href={paper_link} style={{ textDecoration: 'none', color: 'inherit', display: 'flex', alignItems: 'center' }}>
          <ArticleIcon style={{ marginRight: '8px' }} />
