@@ -4,10 +4,10 @@ import Typography from '@mui/material/Typography';
 import ImageGallery from './ImageGallery';
 // Example usage
 const imageList = [
-  { url: 'https://i.ibb.co/tztQm5C/IMG-20211005-130942.jpg', title: 'Taj Mahal' },
-  { url: 'https://i.ibb.co/nQMGZqS/IMG-20210125-120716.jpg', title: 'Sailing in the Storm' },
-  { url: 'https://i.ibb.co/StGL9zj/IMG-20210509-104300.jpg', title: 'Peace in the mountain' },
-  { url: 'https://i.ibb.co/3kQXhVX/IMG-20200928-134052.jpg', title: 'Eiffel Tower' },
+  { url: 'Art/taj mahal.jpg', title: 'Taj Mahal' },
+  { url: 'Art/sailing in the storm.jpg', title: 'Sailing in the Storm' },
+  { url: 'Art/peace in the mountain.jpg', title: 'Peace in the mountain' },
+  { url: 'Art/eiffel tower.jpg', title: 'Eiffel Tower' },
   { url: 'https://i.ibb.co/56xkTSZ/IMG-20191115-205505.jpg', title: 'Love of Mother' },
   { url: 'https://i.ibb.co/H7NyxZq/IMG-20220506-113710.jpg', title: 'Norway' },
   { url: 'https://i.ibb.co/FB2y3cC/IMG-20210722-122436.jpg', title: 'Japan' },

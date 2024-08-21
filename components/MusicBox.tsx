@@ -11,10 +11,10 @@ interface MusicBoxProps {
 const MusicBox: React.FC<MusicBoxProps> = ({ videoLink, subtitle,Music}) => {
   return (
     <div className='shadow-xl p-4'>
-      <Typography className='align-middle' fontWeight={300} fontFamily={'monospace'} variant="h4" component="div" sx={{ flexGrow: 1 }}>
+      <Typography className='align-middle text-black' fontWeight={300} fontFamily={'monospace'} variant="h4" component="div" sx={{ flexGrow: 1 }}>
         {Music}
       </Typography>
-      <Typography className='align-middle' fontWeight={300} fontFamily={'monospace'} variant="h6" component="div" sx={{ flexGrow: 1 }}>
+      <Typography className='align-middle text-black' fontWeight={300} fontFamily={'monospace'} variant="h6" component="div" sx={{ flexGrow: 1 }}>
         {subtitle}
       </Typography>
       <Videos videoLink={videoLink} />
