@@ -16,7 +16,7 @@ const EducationExperience: React.FC<EducationProps> = ({
   logoUrl,
 }) => {
   return (
-    <div style={{ maxWidth: '800px', margin: '20px auto', fontFamily: 'Arial, sans-serif', lineHeight: '1.6' }}>
+    <div style={{ maxWidth: '800px', margin: '20px auto', fontFamily: 'Arial, sans-serif', lineHeight: '1.6', color: 'black' }}>
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
         <img
           src={logoUrl}
@@ -25,9 +25,9 @@ const EducationExperience: React.FC<EducationProps> = ({
         />
       </div>
       
-      <h2 style={{ textAlign: 'center', marginBottom: '20px', fontWeight:'bolder' }}>{institutionName}</h2>
+      <h2 style={{ textAlign: 'center', marginBottom: '20px', fontWeight: 'bolder', color: 'black' }}>{institutionName}</h2>
       
-      <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '20px' }}>
+      <div style={{ display: 'flex', flexDirection: 'row', marginBottom: '20px', color: 'black' }}>
         <a href={mainImageUrl} target="_blank" rel="noopener noreferrer" style={{ marginRight: '20px' }}>
           <img
             src={mainImageUrl}
@@ -35,7 +35,7 @@ const EducationExperience: React.FC<EducationProps> = ({
             style={{ maxWidth: '180px', width: '100%', height: 'auto', borderRadius: '10px', float: 'left' }}
           />
         </a>
-        <p style={{ textAlign: 'justify', flex: 1 }}>{description}</p>
+        <p style={{ textAlign: 'justify', flex: 1, color: 'black' }}>{description}</p>
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap', marginTop: '20px' }}>
